@@ -1,0 +1,222 @@
+hmtl{
+  overflow: hidden;
+  max-width: 390px;
+  max-height: 844px;
+}
+
+
+body{
+  overflow: hidden;
+}
+
+.large_title_bar{
+  position: relative;
+    /* background-color: grey; */
+    padding-top : 4px;
+    padding-left: 16px;
+    padding-bottom: 12px;
+    padding-right: 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 76px;
+    box-sizing: border-box;
+    z-index: 1;;
+}
+
+.large_title_bar div.large_title{
+/* background-color: blue; */
+font-family: Gothic A1;
+height: 56px;
+width: 278px;
+flex-direction: column;
+box-sizing: border-box;
+/* justify-content: center; */
+}
+
+.right_action{
+  /* background-color: red; */
+    display: flex;
+    align-items: center; 
+    width: 84px;
+    height: 40px;
+    gap: 4px;
+}
+
+.search{
+  width: 24px;
+  height: 24px;
+  padding: 8px;
+}
+
+.light{
+  width: 24px;
+  height: 24px;
+  padding: 8px;
+}
+
+.large_title div.Page_title{
+color: black;
+font-weight: bolder;
+font-family: Gothic A1;
+width: 100%;
+height: 32px;
+font-weight: 300;
+line-height: 32px;
+word-wrap: break-word;
+font-size: 2em;
+}
+
+.large_title_bar div.Subtitle{
+color: grey;
+font-family: Gothic A1;
+width: 100%;
+height: 24px;
+font-weight: 400;
+line-height: 16px;
+word-wrap: break-word;
+}
+
+/* untuk mengatur story list */
+/* .story-list {
+    display: flex;
+    align-items: center;
+    width: 390px;
+    height: 115px;
+    gap: 10px;
+    padding: 0px 8px 0px 8px;
+    margin: auto;
+    border-bottom: blueviolet;
+}
+
+.story-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.story-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.story-username {
+    margin-top: 5px;
+    text-align: center;
+} */
+/* .story-slider {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .story-list {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .story-item {
+    flex: 0 0 50px;
+    width: 88px;
+    height: 115px;
+    margin-right: 7px;
+    padding: 12px 4px 12px 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .story-item img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .story-caption {
+    margin-top: 5px;
+    text-align: center;
+  }
+   */
+
+   .scroll_group{
+    position: relative;
+    z-index: 2;
+    height: 662px;
+    max-height: 662px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: grey;
+   }
+
+   .content_row_slider{
+    box-sizing: border-box;
+    height: 115px;
+    padding-left: 8px;
+    padding-right: 8px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around;
+    overflow-x: auto;
+    white-space: nowrap;
+   }
+
+   .scroll_frame{
+    box-sizing: border-box;
+    /* background-color: blue; */
+    display: inline-flex;
+    justify-content: center;
+   }
+   
+   .content_row_slider div.story-item{
+     box-sizing: border-box;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 99px;
+     height: 108px;
+   
+    }
+    
+    .story-image {
+     width: 58px;
+     height: 58px;
+     border-radius: 50%;
+     }
+
+    .story-username {
+      margin-top: 5px;
+      text-align: center;
+    }
+
+   div.Gallery_slider {
+      width: 390px;
+      height: 400px;
+      box-sizing: border-box;
+    }
+
+    .gallery{
+      width: 876px;
+      height: 100%;
+      box-sizing: border-box;
+      /* background-color: red; */
+    }
+
+    .Footer{
+    display: flex;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    height: 106px;
+    box-sizing: border-box;
+    /* background-color: red; */
+    justify-content: space-around;
+    align-content: center;
+   }
